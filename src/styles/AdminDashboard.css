@@ -1,0 +1,29 @@
+/* AdminDashboard.css */
+.dashboard-container {
+    display: flex;
+    flex-direction: column;
+    padding: 20px;
+}
+
+.tabs {
+    display: flex;
+    justify-content: space-around;
+}
+
+.tab-button {
+    padding: 10px 20px;
+    background-color: #007bff;
+    color: white;
+    border: none;
+    cursor: pointer;
+    border-radius: 4px;
+}
+
+.tab-button.active {
+    background-color: #0056b3;
+}
+
+.table-container {
+    border-collapse: collapse;
+    width: 100%;
+}

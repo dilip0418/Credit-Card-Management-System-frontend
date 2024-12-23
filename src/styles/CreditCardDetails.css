@@ -1,0 +1,27 @@
+.credit-card {
+    border: none;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    background-color: #000000d6;
+    color: white;
+}
+
+.credit-card-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.credit-card-header img {
+    width: 40px;
+}
+
+.credit-card-info {
+    margin-bottom: 20px;
+}
+
+.credit-card-actions {
+    display: flex;
+    justify-content: flex-end;
+}

@@ -1,0 +1,25 @@
+/* SignUp Page Styles */
+.signup-page {
+    background-color: #f4f6f9;
+}
+
+
+.signup-form-wrapper {
+    max-width: 450px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+.form-control:focus {
+    border-color: #667eea;
+    box-shadow: 0 0 0 0.2rem rgba(102, 126, 234, 0.25);
+}
+
+.btn-primary {
+    transition: all 0.3s ease;
+}
+
+.btn-primary:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 7px 14px rgba(50, 50, 93, 0.1), 0 3px 6px rgba(0, 0, 0, 0.08);
+}

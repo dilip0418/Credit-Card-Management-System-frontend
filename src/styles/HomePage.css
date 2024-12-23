@@ -1,0 +1,13 @@
+.hover-shadow:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+}
+
+.testimonial-box {
+    border-left: 5px solid #007bff;
+    /* Bootstrap primary color */
+}
+
+.bg-light {
+    background-color: #f8f9fa !important;
+    /* Light background for contrast */
+}

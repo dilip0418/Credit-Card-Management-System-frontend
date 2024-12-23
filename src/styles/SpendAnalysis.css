@@ -1,0 +1,70 @@
+/* Ensure the chart container is fully responsive and adjusts with content */
+.recharts-wrapper {
+  width: 100%;
+  /* Makes it take the full width of its parent container */
+  height: 100%;
+  /* Adjusts height based on content */
+  display: flex;
+  justify-content: center;
+  /* Centers the content */
+  align-items: center;
+  /* Centers the content vertically */
+}
+
+
+/* Tooltip customization */
+.recharts-tooltip-wrapper {
+  border-radius: 8px;
+}
+
+/* Chart-specific styles */
+/* .chart-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+} */
+
+/* Optional: Make sure the container has a minimum height to avoid collapsing */
+.stat-card {
+  min-height: 350px;
+  /* You can set the min height based on your needs */
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 15px;
+  border-radius: 10px;
+  background: #ffffff;
+  box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+  transition: transform 1.5s ease-out;
+}
+
+.stat-card:hover {
+  transform: translateY(-5px);
+  /* Smooth hover effect */
+}
+
+
+
+.stat-title {
+  font-size: 20px;
+  font-weight: bold;
+  color: #333;
+  margin-bottom: 20px;
+}
+
+/* For the fallback message */
+.stat-fallback {
+  font-size: 16px;
+  font-weight: 500;
+  text-align: center;
+  color: #6c757d;
+  margin-top: 20px;
+}
+
+
+
+.uniform-card {
+  height: 100%;
+  /* Make the card take up the full height of its parent */
+}

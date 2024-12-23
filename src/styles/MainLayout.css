@@ -1,0 +1,24 @@
+/* Custom CSS file for layout tweaks */
+
+/* Sidebar styles */
+.sidebar-wrapper {
+    /* background-color: #f8f9fa; */
+    height: 100%;
+    /* Full height */
+    /* border-right: 1px solid #ddd; */
+}
+
+/* Advertisement column */
+.advertisement {
+    background-color: #f4f4f4;
+    border-left: 1px solid #ddd;
+}
+
+/* Main content area */
+main {
+    overflow-y: auto;
+    /* Ensure vertical scrolling */
+    /* height: 100%; */
+    /* Full height */
+    padding-bottom: 1rem;
+}

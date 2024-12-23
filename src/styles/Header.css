@@ -1,0 +1,42 @@
+/* Optional: Style for the logo */
+.logo {
+    width: 40px;
+    height: 40px;
+}
+
+/* Header background and shadow */
+header {
+    background-color: #34495e;
+    /* Dark blue-gray */
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    /* Subtle shadow */
+}
+
+/* Button hover effects */
+button:hover,
+a:hover {
+    color: #fff !important;
+    background-color: #3498db;
+}
+
+/* Mobile menu */
+.d-md-none {
+    display: block !important;
+}
+
+/* Mobile Nav Menu transition */
+.mobile-nav {
+    transition: transform 0.3s ease-in-out, opacity 0.3s ease;
+}
+
+/* Add a backdrop behind the mobile menu */
+.mobile-nav-backdrop {
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent dark backdrop */
+    z-index: 99;
+}
