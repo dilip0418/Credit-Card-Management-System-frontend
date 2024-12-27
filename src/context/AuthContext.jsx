@@ -2,7 +2,7 @@
 // src/context/AuthContext.jsx
 import React, { createContext, useState, useEffect } from 'react';
 import AuthService from '../services/authService';
-import UserProfileService from '../services/UserProfileService';
+import UserProfileService from '../services/userProfileService';
 import { toast } from 'react-toastify';
 
 export function AuthProvider({ children }) {

@@ -1,7 +1,7 @@
 // src/pages/Profile.jsx
 import React, { useEffect, useState } from 'react';
 import { useAuth } from '../context/useAuthContext';
-import UserProfileService from '../services/UserProfileService';
+import UserProfileService from '../services/userProfileService';
 import EditProfileModal from './EditProfileModal';
 import { useNavigate } from 'react-router-dom';
 import { Mosaic } from 'react-loading-indicators';

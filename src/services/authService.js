@@ -1,7 +1,7 @@
 import { jwtDecode } from 'jwt-decode';
 import axiosInstance from './axiosInstance';
 import { toast } from 'react-toastify';
-import UserProfileService from './UserProfileService';
+import UserProfileService from './userProfileService';
 
 
 const AuthService = {

@@ -1,4 +1,3 @@
-import AuthService from './authService';
 import axiosInstance from './axiosInstance';
 import { toast } from 'react-toastify';
 import { useAuth } from '../context/useAuthContext';

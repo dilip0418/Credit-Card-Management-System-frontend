@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { RoleService } from '../services/RoleService';
+import { RoleService } from '../services/roleService';
 import { toast } from 'react-toastify';
 import { OrbitProgress } from 'react-loading-indicators'; // Optional loader
 import { Trash, PlusCircle } from 'lucide-react';
